@@ -1,9 +1,5 @@
-var paths = {
-  LESSON1: './Lesson-1-Our-First-Component/index.js'
-}
-
 module.exports = {
-  entry: paths[process.env.LESSON],
+  entry: './app/index.js',
   output: {
     filename: "./build/bundle.js",
     sourceMapFilename: "./build/bundle.map"

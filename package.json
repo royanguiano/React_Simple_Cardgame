@@ -2,9 +2,6 @@
   "name": "learn-react",
   "version": "1.0.0",
   "description": "",
-  "scripts": {
-    "lesson-1": "LESSON=LESSON1 webpack -w"
-  },
   "author": "Brad Westfall",
   "license": "ISC",
   "devDependencies": {
