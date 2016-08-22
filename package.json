@@ -1,0 +1,23 @@
+{
+  "name": "learn-react",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "lesson-1": "LESSON=LESSON1 webpack -w"
+  },
+  "author": "Brad Westfall",
+  "license": "ISC",
+  "devDependencies": {
+    "axios": "^0.9.1",
+    "babel-core": "^6.3.13",
+    "babel-loader": "^6.2.0",
+    "babel-preset-es2015": "^6.5.0",
+    "babel-preset-react": "^6.3.13",
+    "babel-preset-stage-2": "^6.3.13",
+    "react": "15.1.0",
+    "react-dom": "15.1.0",
+    "react-redux": "^4.0.6",
+    "react-router": "^2.6.0",
+    "redux": "^3.0.5"
+  }
+}
