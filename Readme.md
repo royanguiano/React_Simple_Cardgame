@@ -4,7 +4,7 @@ This repo is for a YouTube series. Here are the videos:
 
 - [1: Setup: Learn how to setup React with NPM, Webpack, Babel and ES6 ](https://youtu.be/ZkSV5IUqHMM?list=PLMve8qV_h5E8YuaoKG34145IuLRatslPU)
 - [2: "Hello World" Component with Webpack and Babel ](https://youtu.be/ZRHfZqN6pBY?list=PLMve8qV_h5E8YuaoKG34145IuLRatslPU)
-- [3: Learn how to create multiple components in a parent/child r](https://youtu.be/psxeb0z2KbU?list=PLMve8qV_h5E8YuaoKG34145IuLRatslPU)
+- [3: Learn how to create multiple components in a parent/child relationship](https://youtu.be/psxeb0z2KbU?list=PLMve8qV_h5E8YuaoKG34145IuLRatslPU)
 - [4: Props: One of the most fundamental concepts in React](https://youtu.be/cBYi5Ypr5W0?list=PLMve8qV_h5E8YuaoKG34145IuLRatslPU)
 - [5: Conditional Renders: Learn how to be more strategic with React](https://youtu.be/4xgiysCSIWo?list=PLMve8qV_h5E8YuaoKG34145IuLRatslPU)
 - [6: State: One of the most fundamental concepts in React](https://youtu.be/BGNrTE0ZN3A?list=PLMve8qV_h5E8YuaoKG34145IuLRatslPU)
