@@ -8,12 +8,13 @@ This repo is for a YouTube series. Here are the videos:
 - [4: Props: One of the most fundamental concepts in React](https://youtu.be/cBYi5Ypr5W0?list=PLMve8qV_h5E8YuaoKG34145IuLRatslPU)
 - [5: Conditional Renders: Learn how to be more strategic with React](https://youtu.be/4xgiysCSIWo?list=PLMve8qV_h5E8YuaoKG34145IuLRatslPU)
 - [6: State: One of the most fundamental concepts in React](https://youtu.be/BGNrTE0ZN3A?list=PLMve8qV_h5E8YuaoKG34145IuLRatslPU)
-- [7: Stateless Functional Components](https://youtu.be/but2AvPtLkc?list=PLMve8qV_h5E8YuaoKG34145IuLRatslPU)
-- [8: XHR (AJAX) Requests ](https://youtu.be/A2-u0KnyxWs?list=PLMve8qV_h5E8YuaoKG34145IuLRatslPU)
-- [9: React Router](https://youtu.be/y-Rc5R6snPM?list=PLMve8qV_h5E8YuaoKG34145IuLRatslPU)
-- [10: React Router Layouts](https://youtu.be/iaYxvJZh5Jw?list=PLMve8qV_h5E8YuaoKG34145IuLRatslPU)
-- [11: React Component Organization ](https://youtu.be/OH2rSN9hWuI?list=PLMve8qV_h5E8YuaoKG34145IuLRatslPU)
-- [12: User Profile with React Router](https://youtu.be/zm3WE1mguqs?list=PLMve8qV_h5E8YuaoKG34145IuLRatslPU)
+- [7: Props and State](https://youtu.be/eKVb-OxoLCs?list=PLMve8qV_h5E8YuaoKG34145IuLRatslPU)
+- [8: Stateless Functional Components](https://youtu.be/but2AvPtLkc?list=PLMve8qV_h5E8YuaoKG34145IuLRatslPU)
+- [9: XHR (AJAX) Requests ](https://youtu.be/A2-u0KnyxWs?list=PLMve8qV_h5E8YuaoKG34145IuLRatslPU)
+- [10: React Router](https://youtu.be/y-Rc5R6snPM?list=PLMve8qV_h5E8YuaoKG34145IuLRatslPU)
+- [11: React Router Layouts](https://youtu.be/iaYxvJZh5Jw?list=PLMve8qV_h5E8YuaoKG34145IuLRatslPU)
+- [12: React Component Organization ](https://youtu.be/OH2rSN9hWuI?list=PLMve8qV_h5E8YuaoKG34145IuLRatslPU)
+- [13: User Profile with React Router](https://youtu.be/zm3WE1mguqs?list=PLMve8qV_h5E8YuaoKG34145IuLRatslPU)
 
 ## Running the code
 
