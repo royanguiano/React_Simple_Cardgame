@@ -98,7 +98,7 @@ resetGame(){
               this.setState({ gameState: gamesStatesEnum.wrong, cards: this.state.cards , secondCard: card}); 
             }
         break; 
-        
+
       //case three
        case gamesStatesEnum.wrong: 
             this.state.cards[ this.state.firstCard.rowIndex ][ this.state.firstCard.collumnIndex ].flipped = false; 
@@ -128,7 +128,7 @@ resetGame(){
 }
 
 ReactDOM.render(
- 	<Layout width = { 2 } height = { 3 }/>, document.getElementById('root')
+ 	<Layout width = { 6 } height = { 6 }/>, document.getElementById('root')
 );
 
 
