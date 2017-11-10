@@ -1,4 +1,10 @@
-.user {
-  padding: 10px;
-  border-bottom: 1px solid black;
+.card{
+	height: 50px; 
+	width: 50px; 
+	border: 1px solid grey;
+	text-align: center;
+}
+
+.card span{
+	line-height: 50px;
 }
