@@ -1,14 +1,17 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
 
-const gamesStatesEnum = {first: 'waiting first card', 
-                         second: 'waiting second card', 
-                         wrong: 'wrong',
-                         finished: 'game over' 
+const gamesStatesEnum = {   first: 'waiting first card', 
+                           second: 'waiting second card', 
+                           wrong: 'wrong',
+                           finished: 'game over' 
                         }; 
 var turn = 0; 
+
+//create array 
 function createArray(x, y){ return Array.apply( null, Array( x )).map( (e) => Array( y )); }
 
+//shuffle cards function
 function shuffleArray(a) {  
   var j, x, i; 
   for(i = a.length; i; i--){
@@ -19,12 +22,14 @@ function shuffleArray(a) {
   }
 }
 
+//card component
 class Card extends React.Component {
   render() {
     return <div className = 'card' ><span>{ this.props.card.flipped ? this.props.card.cardValue : '?' }</span></div>; 
   }
 }
 
+//layout component 
 class Layout extends React.Component {  
 	constructor(props){
   	super(props); 
@@ -53,6 +58,7 @@ class Layout extends React.Component {
       }
     }
 
+    //initialize state of components
     this.state = { 	cards: cards, 
                     gameState: gamesStatesEnum.first, 
                     firstCard: null, 
@@ -66,17 +72,20 @@ resetGame(){
   console.log('reseting game')
 }
 
+//check what happens when card is clicked
   cardClick( card ){
   	if( !card.flipped ){
       switch( this.state.gameState ){
+        //case one
         case gamesStatesEnum.first: 
             this.state.cards[ card.rowIndex ][ card.collumnIndex ].flipped = true; 
             this.setState({ cards : this.state.cards, firstCard: card, gameState: gamesStatesEnum.second });
         break; 
 
+        //case two
         case gamesStatesEnum.second: 
             this.state.cards[ card.rowIndex ][ card.collumnIndex ].flipped = true;
-			turn = turn - 2; 
+			      turn = turn - 2; 
 
            if( this.state.firstCard.cardValue == card.cardValue ){
              this.setState({ gameState: gamesStatesEnum.first, cards: this.state.cards }); 
@@ -89,7 +98,8 @@ resetGame(){
               this.setState({ gameState: gamesStatesEnum.wrong, cards: this.state.cards , secondCard: card}); 
             }
         break; 
-
+        
+      //case three
        case gamesStatesEnum.wrong: 
             this.state.cards[ this.state.firstCard.rowIndex ][ this.state.firstCard.collumnIndex ].flipped = false; 
             this.state.cards[ this.state.secondCard.rowIndex ][ this.state.secondCard.collumnIndex ].flipped = false; 
