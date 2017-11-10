@@ -2,13 +2,20 @@
 
 ## Running the code
 
-After cloning, install third-party modules:
+After cloning: 
+git clone https://github.com/royanguiano/cardgame.git
 
 ```sh
 npm install
 ```
 
 Then in one command-line window, to have Webpack build the bundle file (Make sure Webpack is installed globally first), do this:
+To install webpack
+npm install webpack -g
+
+to run app 
+on terminal: weppack -w 
+go to browser: http://localhost:3000
 
 ```sh
 webpack -w
