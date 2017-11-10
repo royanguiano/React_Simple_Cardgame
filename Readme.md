@@ -38,16 +38,16 @@ Then in another command-line window, do this to launch a quick web server:
 http-server
 ```
 
-Built With
+## Built With
 
 react - The web framework used
 language - es6 javascript, css, hhtml
 
-Authors
+## Authors
 Roy anguiano
 
 
-Contact: 
+## Contact: 
 Email: roy.kid16@gmail.com
 phone: 9514630654
 web: www.tuborrow.com
