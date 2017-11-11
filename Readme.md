@@ -26,7 +26,7 @@ npm install webpack -g
 
 to run app 
 on terminal: weppack -w 
-go to browser: http://localhost:3000
+go to current directory and open up index.html in browser
 
 ```sh
 webpack -w
